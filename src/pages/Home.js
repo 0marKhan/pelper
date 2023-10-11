@@ -5,6 +5,7 @@ import HeadingText from "../components/HeadingText";
 import SearchBox from "../UI/SearchBox";
 import NonProfitSection from "../components/NonProfitSection";
 import NonProfitNames from "../components/NonProfitNames";
+import SearchButton from "../UI/SearchButton";
 
 const SearchBoxCenter = styled.div`
   display: flex;
@@ -50,6 +51,7 @@ function Home() {
           variant="outlined"
           style={{ margin: "1.5rem 0rem 0 0rem" }}
         />
+        <SearchButton variant="contained">Search</SearchButton>
       </SearchBoxCenter>
       <SearchHint>Enter keyword for example: cancer, animal</SearchHint>
 

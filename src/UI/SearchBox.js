@@ -2,7 +2,7 @@ import TextField from "@mui/material/TextField";
 import { styled } from "@mui/material/styles";
 
 const SearchBox = styled(TextField)({
-  width: "40rem",
+  width: "36rem",
   textAlign: "center",
   "& .MuiInputBase-input": {
     color: "#fff",
@@ -25,7 +25,7 @@ const SearchBox = styled(TextField)({
     color: "#fff",
   },
   "@media (max-width: 768px)": {
-    width: "80%",
+    width: "70%",
   },
 });
 
